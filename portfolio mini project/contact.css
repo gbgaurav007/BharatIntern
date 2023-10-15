@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    font-size: 2.5vh;
+
+}
+body {
+    background: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.out-box{
+    height: 75vh;
+    width: 75%;
+    display: flex;
+    background-color: rgba(52, 52, 52, 0.4);
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 0 0 16px 0 rgba(255, 255, 255, 0.2);
+}
+.in-box{
+    padding: 8% 5% 0% 10%;
+    width: 50%;
+}
+.box h1{
+    text-align: center;
+    font-size: 5vh;
+}
+.forms{
+    padding: 8% 3% 8% 3%;
+}
+.forms a{
+    text-decoration: none;
+}
+.log{
+    margin: 3% 0 5% 0;
+    height: 7%;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+}
+.remember{
+    margin: 3% 0 3% 0;
+    font-size: 2vh;
+}
+#button{
+    margin: 3% 0 3% 0;
+    width: 100%;
+    height: 8%;
+    border: none;
+    background-color: #ffd900;
+}
+#button:hover{
+    background-color: #000000;
+    border: 1px solid #ffd900;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+.logo{
+    width: 50%;
+    max-width: 50%;
+    padding: 10% 0% 10% 10%;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    width: 50%;
+    max-width: 50%;
+    padding: 8% 5% 0% 10%;
+}
+
+input{
+    padding-left: 2%;
+}
+#sign-up a{
+    text-decoration: underline;
+    text-align: center;
+    
+}
+#sign-up span{
+    font-size: 1.5vh;
+    margin-left:28% ;
+}
+.info{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 50% 50% 50%;
+    padding-top: 10%;
+    margin-left: 5%;
+}
+.about-div h3{
+    font-weight: bold;
+}
+.about-div p{
+    margin-top: 5%;
+    font-size: 1.5vh;
+}
+.about-div a:hover{
+    color: blueviolet;
+}
