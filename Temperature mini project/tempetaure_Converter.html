@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <div class="top">
+        <i class="fa fa-thermometer-half fa-lg"></i>
+        <h2 class="heading">Temperature Converter</h2>
+    </div>
+    <div class="out-box">
+        <div class="instruct">
+            <h2>Instructions</h2>
+            <ul>
+                <li>In the 'Value' section, enter the temperature value you want to convert.</li>
+                <li> After 'Value' select box, choose the temperature's unit.</li>
+                <li>In the 'Convert In' select box, choose the unit of temperature you want.</li>
+                <li>For results, select "Calculate" and if you want to restore the values to their default settings,
+                    select
+                    "Reset."</li>
+                <li>The output field will show the converted temperature value.</li>
+            </ul>
+        </div>
+        <div class="convert">
+            <h2>Enter Temperature</h2>
+            <label for="unitFrom">Degree</label><br>
+            <input type="number" id="inputTemp" class="log" placeholder="Enter Degree">
+            <select id="unitFrom" class="log1">
+                <option value="celsius">°C</option>
+                <option value="fahrenheit">°F</option>
+                <option value="kelvin">K</option>
+            </select><br>
+            <label for="unitTo">Convert In</label><br>
+            <select id="unitTo" class="log2">
+                <option value="celsius">Celsius (°C)</option>
+                <option value="fahrenheit">Fahrenheit (°F)</option>
+                <option value="kelvin">Kelvin (K)</option>
+            </select><br>
+            <button onclick="convertTemperature()" class="cbtn">Calculate</button>
+            <button onclick="reset()" class="rbtn">Reset</button><br>
+            <input type="text" id="result" readonly>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

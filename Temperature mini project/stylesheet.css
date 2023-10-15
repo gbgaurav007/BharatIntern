@@ -1,0 +1,101 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(4,4,4);
+    background: linear-gradient(60deg, rgba(4,4,4,1) 34%, rgba(12,4,24,1) 62%, rgba(34,3,79,1) 85%, rgba(54,2,129,1) 97%, rgba(98,0,238,1) 100%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.top{
+    margin: 2lvw;
+}
+.heading{
+    margin-left: 2lvw;
+    margin-top: -2lvw;
+    font-size: 2.2lvw;
+}
+
+.out-box{
+    height: 75vh;
+    width: 75%;
+    display: flex;
+    background-color:  rgba(54,2,129,0.7);
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.instruct {
+    padding : 4lvw 0 0 2.1lvw;
+    width: 50%;
+    margin-top: 5lvw;
+}
+
+.instruct h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.2lvw;
+}
+
+.convert{
+    padding : 4lvw 3.1lvw 0 0;
+    width: 50%;
+    border-radius: 1.5lvw;
+    padding: 2lvw;
+    width: 50%;
+    margin-top: 3lvw;
+    margin-left: 5lvw;
+}
+.convert h2{
+    font-size: 2.2lvw;
+
+}
+.log{
+    margin: 3% 0;
+    height: 3.2lvw;
+    width: 20lvw;
+    border: none;
+    margin-right: 0%;
+}
+.log1{
+    width: 5lvw;
+    height: 3.2lvw;
+}
+.log2{
+    margin: 3% 0;
+    height: 3.2lvw;
+    width: 25.5lvw;
+}
+
+select,input{
+    font-size: 1.2lvw;
+    border-radius: 0.5lvw;
+    padding: 0.3lvw;
+}
+
+.cbtn,.rbtn{
+        margin: 3% 0;
+        width: 12.5lvw;
+        height: 8%;
+        border: none;
+        background-color: rgba(115,15,255,1);
+        font-size: 1.4lvw;
+        color: white;
+}
+
+.cbtn:hover, .rbtn:hover{
+    background-color: #6200EE;
+}
+#result{
+    margin: 2lvw 7.5lvw;
+
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: white;
+    font-size: 4lvw;
+}
